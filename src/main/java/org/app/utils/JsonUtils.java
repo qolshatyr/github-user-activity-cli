@@ -10,7 +10,7 @@ import java.util.List;
 
 public class JsonUtils {
 
-    public static List<GitHubEvent> deSerializeGitHubEvents() throws RuntimeException {
+    public List<GitHubEvent> deSerializeGitHubEvents() throws RuntimeException {
         List<GitHubEvent> events;
 
         Gson gson = new Gson();
